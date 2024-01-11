@@ -1,0 +1,40 @@
+table {
+    border: 3px solid red;
+}
+
+caption {
+    color: Red;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+caption :last-child {
+    color: blue;
+}
+
+th, td {
+    border: 1.5px solid blue;
+    text-align: center;
+    padding: 0 24px;
+}
+
+thead {
+    background-color: bisque;
+}
+
+tbody tr :first-child {
+    background-color: aqua;
+    padding: 0;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: darkkhaki;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+
+tfoot {
+    background-color: darksalmon;
+}

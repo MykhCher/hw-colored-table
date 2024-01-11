@@ -1,1 +1,1 @@
-Homework page where skills of table-creation and psudoclasses usage are tested.
+Homework page where skills of table-creation and pseudoclasses usage are tested.

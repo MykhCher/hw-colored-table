@@ -8,11 +8,12 @@ caption {
     font-size: 1.4em;
 }
 
-caption :last-child {
-    color: blue;
+caption::after {
+    content: "#05";
+    color: blueviolet;
 }
 
-th, td {
+table :not(caption) {
     border: 1.5px solid blue;
     text-align: center;
     padding: 0 24px;
